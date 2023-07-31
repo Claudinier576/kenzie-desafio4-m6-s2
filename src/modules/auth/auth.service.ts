@@ -27,6 +27,7 @@ export class AuthService {
         const resp = {
             sub: user.id,
             id: user.id,
+            name: user.name,
             email: user.email,
             phone: user.phone,
         }
